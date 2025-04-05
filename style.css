@@ -1,0 +1,80 @@
+/* Apply a soothing background and set default font */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Center the container on the page */
+.container {
+    max-width: 600px;
+    margin: 80px auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the header */
+h1 {
+    text-align: center;
+    color: #0077b6;
+    margin-bottom: 20px;
+}
+
+/* Style the labels and inputs */
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Style the button */
+button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    background-color: #00b4d8;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0096c7;
+}
+
+/* Display fortune result */
+#fortune {
+    margin-top: 25px;
+    font-size: 18px;
+    background-color: #e0f7fa;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    margin-top: 60px;
+    padding: 20px;
+    background-color: #caf0f8;
+    color: #333;
+    font-size: 14px;
+    border-top: 1px solid #ccc;
+}
